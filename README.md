@@ -8,6 +8,8 @@
 
 StayVerse is a fully responsive hotel booking frontend web app where users can explore premium destinations, check availability, and search for hotels seamlessly. It offers a real-world, visually pleasing experience built with production-ready React architecture and styling.
 
+Deployed on **Vercel** → [Live Demo](https://hotel-booking-website-stay-verse.vercel.app)
+
 ---
 
 ## ✨ Key Features
@@ -35,24 +37,16 @@ StayVerse is a fully responsive hotel booking frontend web app where users can e
 
 ## 🌐 Live Demo
 
-Coming soon... (will be deployed on **Vercel**)
+▶️ [View StayVerse Live](https://hotel-booking-website-stay-verse.vercel.app)
 
 ---
 
-## 
-
-🛡️ Security
-.env is gitignored and contains sensitive keys only
-
-Auth powered by your personal Clerk instance
-
-Removed all traces of previous authors/contributors
-
-✍️ Author
+## ✍️ Author
 Aliya Aftab
 
+---
 
-📌 Upcoming Plans
+## 📌 Upcoming Plans
 🔐 Enable complete MERN backend integration
 
 🤖 Add AI-based hotel recommendation system using OpenAI API
@@ -61,7 +55,9 @@ Aliya Aftab
 
 🚀 Deploy frontend on Vercel and backend on Render
 
-📄 License
+---
+
+## 📄 License
 This project is open for learning and personal use.
 © 2025 Aliya Aftab — All rights reserved.
 
