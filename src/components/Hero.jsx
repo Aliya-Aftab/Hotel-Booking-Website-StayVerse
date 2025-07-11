@@ -1,14 +1,15 @@
 import React from "react";
 import { assets, cities } from "../assets/assets";
+import heroImg from "../assets/stayverse-hero.jpg"; 
 
 const Hero = () => {
   console.log(cities);
   return (
-    <div
-  className='relative flex flex-col items-start justify-center px-6 md:px-16 lg:px-24
-  xl:px-32 text-white bg-[url("/stayverse-hero.jpg")] bg-no-repeat
-  bg-cover bg-center h-screen'
+   <div
+  className="relative flex flex-col items-start justify-center px-6 md:px-16 lg:px-24 xl:px-32 text-white h-screen bg-no-repeat bg-cover bg-center"
+  style={{ backgroundImage: `url(${heroImg})`  }}
 >
+
   {/*  Dark overlay for readability */}
   <div className="absolute inset-0 bg-black opacity-40"></div>
 
@@ -31,7 +32,7 @@ const Hero = () => {
 
 
       {/* Hotel booking form */}
-      <form className="bg-white text-gray-500 rounded-lg px-6 py-4 mt-8 flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto">
+      <form className= " relative z-20 bg-white text-gray-500 rounded-lg px-6 py-4 mt-8 flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto">
         <div>
           <div className="flex items-center gap-2">
             <img src={assets.calenderIcon} alt="calenderIcon" className="h-4" />
