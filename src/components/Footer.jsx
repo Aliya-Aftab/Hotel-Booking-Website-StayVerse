@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-wrap justify-between gap-12 md:gap-6">
         <div className="max-w-80">
         <img
-  src="logo.png"
+  src="../logo.png"
   alt="StayVerse Logo"
   className="h-20 w-20 md:h-24 md:w-24 object-contain opacity-90"
 />
